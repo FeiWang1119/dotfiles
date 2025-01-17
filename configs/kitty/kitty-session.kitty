@@ -1,0 +1,142 @@
+# job-data
+new_tab job-data
+
+cd ~/repo/job-data/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/job-data/
+
+# dde-shell
+new_tab dde-shell
+
+cd ~/repo/dde-shell
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dde-shell/
+
+# dde-tray-loader
+new_tab dde-tray-loader
+
+cd ~/repo/dde-tray-loader/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dde-tray-loader/
+
+# dde-dock
+# new_tab dde-dock
+#
+# cd ~/repo/dde-dock
+#
+# launch nvim .
+#
+# focus
+#
+# launch zsh
+#
+# cd ~/repo/dde-dock/
+
+# dde-network-core
+# new_tab dde-network-core
+#
+# cd ~/repo/dde-network-core
+#
+# launch nvim .
+#
+# focus
+#
+# launch zsh
+#
+# cd ~/repo/dde-network-core/
+
+# dde-recorder
+# new_tab deepin-screen-recorder
+#
+# cd ~/repo/deepin-screen-recorder/
+#
+# launch nvim .
+#
+# focus
+#
+# launch zsh
+#
+# cd ~/repo/deepin-screen-recorder/
+
+# dde-file-manager
+# new_tab dde-file-manager
+#
+# cd ~/repo/dde-file-manager/
+#
+# launch nvim .
+#
+# focus
+#
+# launch zsh
+#
+# cd ~/repo/dde-file-manager/
+
+# deepin-system-monitor
+# new_tab deepin-system-monitor
+#
+# cd ~/repo/deepin-system-monitor/
+#
+# launch nvim .
+#
+# focus
+#
+# launch zsh
+#
+# cd ~/repo/deepin-system-monitor/
+
+# dde-control-center
+new_tab dde-control-center
+
+cd ~/repo/dde-control-center/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dde-control-center/
+
+# dtkwidget
+new_tab dtkwidget
+
+cd ~/repo/dtkwidget/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkwidget/
+
+# qt5integration
+new_tab qt5integration
+
+cd ~/repo/qt5integration/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qt5integration/

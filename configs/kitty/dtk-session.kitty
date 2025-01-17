@@ -1,0 +1,143 @@
+# dtkcommon
+new_tab dtkcommon
+
+cd ~/repo/dtkcommon/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkcommon/
+
+# dtkcore
+new_tab dtkcore
+
+cd ~/repo/dtkcore/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkcore/
+
+# dtkgui
+new_tab dtkgui
+
+cd ~/repo/dtkgui/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkgui/
+
+# dtkwidget
+new_tab dtkwidget
+
+cd ~/repo/dtkwidget/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkwidget/
+
+# qt5integration
+new_tab qt5integration
+
+cd ~/repo/qt5integration/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qt5integration/
+
+# qt5platform-plugins
+new_tab qt5platform-plugins
+
+cd ~/repo/qt5platform-plugins/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qt5platform-plugins/
+
+# dtkdeclarative
+new_tab dtkdeclarative
+
+cd ~/repo/dtkdeclarative/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dtkdeclarative/
+
+# dde-app-sevices
+new_tab dde-app-sevices
+
+cd ~/repo/dde-app-services/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/dde-app-services/
+
+# qtbase
+new_tab qtbase
+
+cd ~/repo/qtbase/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qtbase/
+
+# qt5base
+new_tab qt5base
+
+cd ~/repo/qtbase-opensource-src-5.15.8/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qtbase-opensource-src-5.15.8/
+
+# qtdeclarative
+new_tab qtdeclarative
+
+cd ~/repo/qtdeclarative/
+
+launch nvim .
+
+focus
+
+launch zsh
+
+cd ~/repo/qtdeclarative/
+
