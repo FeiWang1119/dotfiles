@@ -104,15 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll='ls -l'
 alias la='ls -la'
-alias c-d='cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/rh/devtoolset-11/root/usr/bin/gcc -DCMAKE_CXX_COMPILER=/opt/rh/devtoolset-11/root/usr/bin/g++ -DPROJECT_INSTALL=/home/fei/repo/company/project-install -DTHIRD_PARTY_PATH=/home/fei/repo/company/project-install'
-alias c-r='cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/opt/rh/devtoolset-11/root/usr/bin/gcc -DCMAKE_CXX_COMPILER=/opt/rh/devtoolset-11/root/usr/bin/g++ -DPROJECT_INSTALL=/home/fei/repo/company/project-install -DTHIRD_PARTY_PATH=/home/fei/repo/company/project-install'
-alias b='cmake --build build -j10'
+alias c-d='cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Debug -DPROJECT_INSTALL=/home/fei/repo/company/project-install -DTHIRD_PARTY_PATH=/home/fei/repo/company/project-install'
+alias c-r='cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DPROJECT_INSTALL=/home/fei/repo/company/project-install -DTHIRD_PARTY_PATH=/home/fei/repo/company/project-install'
+alias b='cmake --build build -j10 2>&1 | grep -E "(warning|error|fatal error|undefined)"'
 alias i='cmake --install build'
 alias rb='rm -rf build'
 
 export http_proxy="http://192.168.110.223:7897"
 export https_proxy="http://192.168.110.223:7897"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-COLLECT_GCC=g++
-COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
