@@ -18,7 +18,7 @@ map("n", "<C-a>", "<cmd>wa<cr>", { desc = "Save all" })
 map("i", "jk", "<ESC>", { desc = "exit insert mode" })
 
 -- MarkdownPreview
-map("n", "<F12>", "<cmd>MarkdownPreviewToggle<CR>", { desc = "MarkdownPreview" })
+-- map("n", "<F12>", "<cmd>MarkdownPreviewToggle<CR>", { desc = "MarkdownPreview" })
 
 -- DiffView
 map("n", "<leader>dv", ":DiffviewOpen<CR>", { desc = "Open DiffView"})
