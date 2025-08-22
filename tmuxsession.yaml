@@ -1,0 +1,38 @@
+# tmuxp tool
+session_name: code
+windows:
+  - window_name: cpotestserver
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/cpotestserver/ # run as a first command in all panes
+      - nvim .
+  - window_name: cpotest
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/cpotest/ # run as a first command in all panes
+      - nvim .
+  - window_name: cpoexecutor
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/cpoexecutor/ # run as a first command in all panes
+      - nvim .
+  - window_name: json
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/json-protocol-cpo/ # run as a first command in all panes
+      - nvim .
+  - window_name: dotfiles
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/dotfiles/ # run as a first command in all panes
+  - window_name: doc
+    layout: tiled
+    shell_command_before:
+      - cd ~/repo/company/docs/ # run as a first command in all panes
+  - window_name: test
+    layout: tiled
+    shell_command_before:
+      - cd ~ # run as a first command in all panes
+    panes:
+      - echo first pane: # pane no. 1
+      - echo second pane # pane no. 2
