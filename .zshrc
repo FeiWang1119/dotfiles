@@ -70,7 +70,7 @@ ZSH_THEME="amuse"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-completions zsh-syntax-highlighting zsh-autosuggestions fzf-tab)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,7 +109,15 @@ alias c-r='cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DPROJECT_INSTALL=/h
 alias b='cmake --build build -j10 2>&1 | grep -E "(warning|error|fatal error|undefined)"'
 alias i='cmake --install build'
 alias rb='rm -rf build'
+alias cat='bat'
 
 export http_proxy="http://192.168.110.223:7897"
 export https_proxy="http://192.168.110.223:7897"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# -v vim-mode key shortcut
+# -e emacs-mode key shortcut
+bindkey -v 
+
+eval "$(zoxide init zsh)"
