@@ -1,0 +1,9 @@
+[user]
+	name = Wang Fei
+	email = afei_wang@semight.com
+[http]
+	proxy = http://192.168.110.223:7897
+[pull]
+	rebase = true
+[rebase]
+	autostash = true
