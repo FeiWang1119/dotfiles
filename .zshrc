@@ -110,6 +110,24 @@ alias b='cmake --build build -j10 2>&1 | grep -E "(warning|error|fatal error|und
 alias i='cmake --install build'
 alias rb='rm -rf build'
 alias cat='bat'
+alias dco='docker-compose'
+alias dcb='docker-compose build'
+alias dce='docker-compose exec'
+alias dcps='docker-compose ps'
+alias dcrestart='docker-compose restart'
+alias dcrm='docker-compose rm'
+alias dcr='docker-compose run'
+alias dcstop='docker-compose stop'
+alias dcup='docker-compose up'
+alias dcupb='docker-compose up --build'
+alias dcupd='docker-compose up -d'
+alias dcdn='docker-compose down'
+alias dcl='docker-compose logs'
+alias dclf='docker-compose logs -f'
+alias dcpull='docker-compose pull'
+alias dcstart='docker-compose start'
+alias dck='docker-compose kill'
+alias dcrecreate='docker-compose up -d --force-recreate'
 
 export http_proxy="http://192.168.110.223:7897"
 export https_proxy="http://192.168.110.223:7897"
@@ -118,6 +136,6 @@ export https_proxy="http://192.168.110.223:7897"
 
 # -v vim-mode key shortcut
 # -e emacs-mode key shortcut
-bindkey -v 
+bindkey -e
 
 eval "$(zoxide init zsh)"
