@@ -1,0 +1,30 @@
+vc="D:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" amd64
+c-d=cmake -Bbuild -GNinja -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -DCMAKE_BUILD_TYPE=Debug -DPROJECT_INSTALL=D:\repo\company\project-install
+c-r=cmake -Bbuild -GNinja -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -DCMAKE_BUILD_TYPE=Release -DPROJECT_INSTALL=D:\repo\company\project-install
+rb=rd /s /q build
+b=cmake --build build -j10
+i=cmake --install build
+deploy==windeployqt --release --no-compiler-runtime --no-angle --no-opengl-sw $*
+h=doskey /history
+ps=tasklist $*
+ls=dir /a /x $*
+lt=dir /a /x /od $*
+d=cd %USERPROFILE%\desktop
+p=ping yahoo.com -n 1 || ping 8.8.8.8 -n 1
+findgrep=dir /s /a /b \*$1*
+n=notepad $*
+e=explorer .
+cya=shutdown /f /s /t 0.
+reboot=shutdown /f /r /t 0
+pspath=wmic process get processid,parentprocessid,executablepath
+psg=tasklist | findstr /i $1
+nsg=netstat -nao | findstr /i $1
+nd=mkdir $1 $t cd $1
+cp=copy $*
+mv=move $*
+ifconfig=ipconfig $*
+macros=doskey /macros
+ip=powershell -noni -nop -ep bypass -c "$c=new-object System.Net.WebClient;$e=$c.DownloadString('http://icanhazip.com');write-host $e"
+..=cd ..
+home=cd %USERPROFILE%
+pepcheck=python -m flake8 $1 --ignore=E265,E501,W291,W293  
